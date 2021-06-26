@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login-Helper</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <script src="./js/index.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,44 +14,46 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
 
     <header>
+        <h1>Login-Helper</h1>
     </header>
 
     <main>
         <form>
-           <section class="inputs-container">
-               <input type="email" placeholder="example@email.com">
-            
-               <div class="password-container">
-                <input type="password" id="field-password" class="field-password" placeholder="******">
-                <i></i>
-                <i></i>
-               </div> 
+            <section class="inputs-container">
+                <input type="email" placeholder="example@email.com">
 
-           </section>
+                <div class="password-container">
+                    <input type="password" id="field-password" class="field-password" placeholder="******">
+                    <i class="fa fa-eye" id="eye" aria-hidden="true"></i>
+                    <i class="fa fa-eye-slash" id="eye-slash" aria-hidden="true"></i>
+                </div>
 
-           <section class="password-infos">
-            <div>
-                <input type="checkbox">
-                <span>Lembrar senha</span>
-            </div>
+            </section>
 
-            <a href="#">Esqueceu sua senha?</a>
-           </section>
+            <section class="password-infos">
+                <div>
+                    <input type="checkbox">
+                    <span>Lembrar senha</span>
+                </div>
 
-           <button id="btn-login">Login</button>
+                <a href="#">Esqueceu sua senha?</a>
+            </section>
 
-           <section class="links-container">
-               <span>Ou entre com:</span>
+            <button id="btn-login">Login</button>
+
+            <section class="links-container">
+                <span>Ou entre com:</span>
                 <aside>
-                    <a href="#"><i></i></a>
-                    <a href="#"><i></i></a>
-                    <a href="#"><i></i></a>
+                    <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+                    <a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                 </aside>
-           </section>
-           
+            </section>
+
             <footer>
                 <hr>
                 <span>Ainda não tem uma conta? <a href="#">Cadastre-se</a></span>
@@ -59,4 +63,5 @@
 
 
 </body>
+
 </html>
